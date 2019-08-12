@@ -1,5 +1,8 @@
-# hello-world
+#include <stdio.h>
+#include <cs50.h>
 
-Hi 
-my name is Ira 
-and I am candy with chocolate 
+int main(void)
+{
+    string name = get_string("What is your name?\n");
+    printf("hello, %s\n", name);
+}
